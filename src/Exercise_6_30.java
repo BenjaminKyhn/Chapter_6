@@ -3,6 +3,7 @@ public class Exercise_6_30 {
         //Roll 2 dice and display the sum
         int point = rollTwoDice();
         int result = getResult(point);
+        System.out.println("Point is " + point);
 
         //If natural or craps, print the result
         if (isNaturalOrCraps(result))
